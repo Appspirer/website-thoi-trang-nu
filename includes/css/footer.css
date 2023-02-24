@@ -1,0 +1,97 @@
+.footer {
+  height: 293px;
+  background: #fff;
+}
+
+.footer__top {
+  padding: 75px 149px 0px 149px;
+  width: 100%;
+}
+
+.footer__top__wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 34px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__top__wrap .logo {
+  width: 240px;
+}
+
+.footer__top__wrap .logo img {
+  width: 92.95px;
+  height: 18.41px;
+  margin-bottom: 32.7px;
+}
+
+.footer__top__wrap .logo p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  display: flex;
+  align-items: center;
+
+  color: #8d8d8d;
+}
+
+.footer__top__wrap div a {
+  display: block;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 250% */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.footer__top__wrap .social {
+  width: 150px;
+  height: 21px;
+}
+
+.footer__top__wrap .social img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.footer__bottom {
+  padding: 26px 154px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__bottom p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #cacaca;
+}
+
+.footer__bottom div a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #cacaca;
+  margin-left: 20px;
+}

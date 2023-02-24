@@ -1,0 +1,386 @@
+/**introduce-start**/
+
+.introduce {
+  height: 1206px;
+  background: #ffffff;
+}
+
+.introduce__wrap {
+  padding: 150px 147px 0px 146px;
+}
+
+.introduce__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.first img {
+  width: 729px;
+  height: 443px;
+}
+
+.first .introduce__text {
+  padding: 103px 20px 0px 0px;
+}
+
+.introduce__item .title {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 51px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  color: #000000;
+  margin-bottom: 23px;
+}
+
+.introduce__item .content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #8d8d8d;
+  margin-bottom: 35px;
+}
+
+.introduce__item div button {
+  background: #b4b3b2;
+  width: 174px;
+  height: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.09091px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.09091px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: none;
+  justify-content: center;
+}
+
+.second img {
+  width: 606px;
+  height: 401px;
+}
+
+.second .introduce__text {
+  padding: 79px 50px 0px 19px;
+}
+
+/**introduce-end**/
+
+/**promotion-start**/
+
+.promotion {
+  height: 278px;
+  background: #c2bbad;
+}
+
+.promotion__wrap {
+  padding: 76px 192px 0px 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promotion__wrap .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 6px;
+  margin-bottom: 58px;
+}
+
+.promotion__wrap .content {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #ffffff;
+}
+
+.promotion__wrap .info {
+  width: 373px;
+}
+
+.promotion__wrap .info p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+
+.promotion__wrap .info button {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1.09091px;
+  text-transform: uppercase;
+
+  color: #998e76;
+}
+
+/**promotion-end**/
+
+/**new__arrivals-start**/
+.new__arrivals {
+  height: 1396px;
+  background: #fff;
+}
+
+.new__arrivals__wrap {
+  padding: 100px 150px;
+}
+
+.new__arrivals__text {
+  display: flex;
+  justify-content: center;
+}
+
+.new__arrivals__text p {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 34px;
+  /* identical to box height, or 85% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  color: #000000;
+  margin-bottom: 79px;
+  position: relative;
+}
+
+.new__arrivals__text p::before {
+  content: "";
+  position: absolute;
+  left: -85px;
+  width: 46px;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.new__arrivals__text p::after {
+  content: "";
+  position: absolute;
+  right: -85px;
+  width: 46px;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.new__arrivals__item {
+  gap: 45px;
+}
+
+.new__arrivals__item .item {
+  margin-bottom: 70px;
+  margin-top: 8px;
+  width: 350px;
+  height: 437px;
+}
+
+.new__arrivals__item .item .title {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  letter-spacing: -0.1px;
+
+  color: #000000;
+  margin-top: 19px;
+  margin-bottom: 6px;
+}
+
+.new__arrivals__item .item .content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  letter-spacing: 0.466667px;
+
+  color: #8d8d8d;
+}
+
+.new__arrivals__wrap button {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #8d8d8d;
+}
+
+/**new__arrivals-end**/
+
+/**subscribe-start**/
+
+.subscribe {
+  height: 420px;
+  background: #f6f8f7;
+  margin-top: 40px;
+}
+
+.subscribe__wrap {
+  padding: 139px 0px 0px 246px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe__wrap .title {
+  font-family: "Unna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 34px;
+  /* identical to box height, or 77% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.1px;
+
+  color: #000000;
+  margin-bottom: 1px;
+}
+
+.subscribe__wrap .content {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.09px;
+
+  color: #878988;
+  margin-bottom: 28px;
+  width: 226px;
+}
+
+.subscribe__wrap button {
+  background: #998e76;
+  width: 174px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: none;
+}
+
+/**subscribe-end**/

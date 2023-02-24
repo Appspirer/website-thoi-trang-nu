@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Unna Bold";
+    src: url("../fonts/Unna-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Unna";
+    src: url("../fonts/Unna-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container__section{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.flex__center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
